@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74965021D608AB000241705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E74965011D608AB000241705 /* main.m */; };
+		E74965051D608AB100241705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E74965041D608AB100241705 /* AppDelegate.m */; };
+		E74965081D608AB100241705 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74965071D608AB100241705 /* ViewController.m */; };
+		E749650B1D608AB100241705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74965091D608AB100241705 /* Main.storyboard */; };
+		E749650D1D608AB100241705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E749650C1D608AB100241705 /* Assets.xcassets */; };
+		E74965101D608AB100241705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E749650E1D608AB100241705 /* LaunchScreen.storyboard */; };
+		E749651B1D608AB100241705 /* SSFortsOfMaharashtraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E749651A1D608AB100241705 /* SSFortsOfMaharashtraTests.m */; };
+		E74965261D608AB100241705 /* SSFortsOfMaharashtraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E74965251D608AB100241705 /* SSFortsOfMaharashtraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74965171D608AB100241705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74964F51D608AB000241705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74964FC1D608AB000241705;
+			remoteInfo = SSFortsOfMaharashtra;
+		};
+		E74965221D608AB100241705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74964F51D608AB000241705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74964FC1D608AB000241705;
+			remoteInfo = SSFortsOfMaharashtra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74964FD1D608AB000241705 /* SSFortsOfMaharashtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSFortsOfMaharashtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74965011D608AB000241705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E74965031D608AB100241705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E74965041D608AB100241705 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E74965061D608AB100241705 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E74965071D608AB100241705 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E749650A1D608AB100241705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E749650C1D608AB100241705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E749650F1D608AB100241705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E74965111D608AB100241705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74965161D608AB100241705 /* SSFortsOfMaharashtraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSFortsOfMaharashtraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E749651A1D608AB100241705 /* SSFortsOfMaharashtraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFortsOfMaharashtraTests.m; sourceTree = "<group>"; };
+		E749651C1D608AB100241705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74965211D608AB100241705 /* SSFortsOfMaharashtraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSFortsOfMaharashtraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74965251D608AB100241705 /* SSFortsOfMaharashtraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFortsOfMaharashtraUITests.m; sourceTree = "<group>"; };
+		E74965271D608AB100241705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74964FA1D608AB000241705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74965131D608AB100241705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E749651E1D608AB100241705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74964F41D608AB000241705 = {
+			isa = PBXGroup;
+			children = (
+				E74964FF1D608AB000241705 /* SSFortsOfMaharashtra */,
+				E74965191D608AB100241705 /* SSFortsOfMaharashtraTests */,
+				E74965241D608AB100241705 /* SSFortsOfMaharashtraUITests */,
+				E74964FE1D608AB000241705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74964FE1D608AB000241705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74964FD1D608AB000241705 /* SSFortsOfMaharashtra.app */,
+				E74965161D608AB100241705 /* SSFortsOfMaharashtraTests.xctest */,
+				E74965211D608AB100241705 /* SSFortsOfMaharashtraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74964FF1D608AB000241705 /* SSFortsOfMaharashtra */ = {
+			isa = PBXGroup;
+			children = (
+				E74965031D608AB100241705 /* AppDelegate.h */,
+				E74965041D608AB100241705 /* AppDelegate.m */,
+				E74965061D608AB100241705 /* ViewController.h */,
+				E74965071D608AB100241705 /* ViewController.m */,
+				E74965091D608AB100241705 /* Main.storyboard */,
+				E749650C1D608AB100241705 /* Assets.xcassets */,
+				E749650E1D608AB100241705 /* LaunchScreen.storyboard */,
+				E74965111D608AB100241705 /* Info.plist */,
+				E74965001D608AB000241705 /* Supporting Files */,
+			);
+			path = SSFortsOfMaharashtra;
+			sourceTree = "<group>";
+		};
+		E74965001D608AB000241705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E74965011D608AB000241705 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74965191D608AB100241705 /* SSFortsOfMaharashtraTests */ = {
+			isa = PBXGroup;
+			children = (
+				E749651A1D608AB100241705 /* SSFortsOfMaharashtraTests.m */,
+				E749651C1D608AB100241705 /* Info.plist */,
+			);
+			path = SSFortsOfMaharashtraTests;
+			sourceTree = "<group>";
+		};
+		E74965241D608AB100241705 /* SSFortsOfMaharashtraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74965251D608AB100241705 /* SSFortsOfMaharashtraUITests.m */,
+				E74965271D608AB100241705 /* Info.plist */,
+			);
+			path = SSFortsOfMaharashtraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74964FC1D608AB000241705 /* SSFortsOfMaharashtra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E749652A1D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtra" */;
+			buildPhases = (
+				E74964F91D608AB000241705 /* Sources */,
+				E74964FA1D608AB000241705 /* Frameworks */,
+				E74964FB1D608AB000241705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSFortsOfMaharashtra;
+			productName = SSFortsOfMaharashtra;
+			productReference = E74964FD1D608AB000241705 /* SSFortsOfMaharashtra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74965151D608AB100241705 /* SSFortsOfMaharashtraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E749652D1D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtraTests" */;
+			buildPhases = (
+				E74965121D608AB100241705 /* Sources */,
+				E74965131D608AB100241705 /* Frameworks */,
+				E74965141D608AB100241705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74965181D608AB100241705 /* PBXTargetDependency */,
+			);
+			name = SSFortsOfMaharashtraTests;
+			productName = SSFortsOfMaharashtraTests;
+			productReference = E74965161D608AB100241705 /* SSFortsOfMaharashtraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74965201D608AB100241705 /* SSFortsOfMaharashtraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74965301D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtraUITests" */;
+			buildPhases = (
+				E749651D1D608AB100241705 /* Sources */,
+				E749651E1D608AB100241705 /* Frameworks */,
+				E749651F1D608AB100241705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74965231D608AB100241705 /* PBXTargetDependency */,
+			);
+			name = SSFortsOfMaharashtraUITests;
+			productName = SSFortsOfMaharashtraUITests;
+			productReference = E74965211D608AB100241705 /* SSFortsOfMaharashtraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74964F51D608AB000241705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sandesh Samgir";
+				TargetAttributes = {
+					E74964FC1D608AB000241705 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E74965151D608AB100241705 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E74964FC1D608AB000241705;
+					};
+					E74965201D608AB100241705 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E74964FC1D608AB000241705;
+					};
+				};
+			};
+			buildConfigurationList = E74964F81D608AB000241705 /* Build configuration list for PBXProject "SSFortsOfMaharashtra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74964F41D608AB000241705;
+			productRefGroup = E74964FE1D608AB000241705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74964FC1D608AB000241705 /* SSFortsOfMaharashtra */,
+				E74965151D608AB100241705 /* SSFortsOfMaharashtraTests */,
+				E74965201D608AB100241705 /* SSFortsOfMaharashtraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74964FB1D608AB000241705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74965101D608AB100241705 /* LaunchScreen.storyboard in Resources */,
+				E749650D1D608AB100241705 /* Assets.xcassets in Resources */,
+				E749650B1D608AB100241705 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74965141D608AB100241705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E749651F1D608AB100241705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74964F91D608AB000241705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74965081D608AB100241705 /* ViewController.m in Sources */,
+				E74965051D608AB100241705 /* AppDelegate.m in Sources */,
+				E74965021D608AB000241705 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74965121D608AB100241705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E749651B1D608AB100241705 /* SSFortsOfMaharashtraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E749651D1D608AB100241705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74965261D608AB100241705 /* SSFortsOfMaharashtraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74965181D608AB100241705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74964FC1D608AB000241705 /* SSFortsOfMaharashtra */;
+			targetProxy = E74965171D608AB100241705 /* PBXContainerItemProxy */;
+		};
+		E74965231D608AB100241705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74964FC1D608AB000241705 /* SSFortsOfMaharashtra */;
+			targetProxy = E74965221D608AB100241705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74965091D608AB100241705 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E749650A1D608AB100241705 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E749650E1D608AB100241705 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E749650F1D608AB100241705 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74965281D608AB100241705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E74965291D608AB100241705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E749652B1D608AB100241705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSFortsOfMaharashtra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E749652C1D608AB100241705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSFortsOfMaharashtra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E749652E1D608AB100241705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSFortsOfMaharashtraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSFortsOfMaharashtra.app/SSFortsOfMaharashtra";
+			};
+			name = Debug;
+		};
+		E749652F1D608AB100241705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSFortsOfMaharashtraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSFortsOfMaharashtra.app/SSFortsOfMaharashtra";
+			};
+			name = Release;
+		};
+		E74965311D608AB100241705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSFortsOfMaharashtraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSFortsOfMaharashtra;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E74965321D608AB100241705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSFortsOfMaharashtraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sandesh-Samgir.SSFortsOfMaharashtraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSFortsOfMaharashtra;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74964F81D608AB000241705 /* Build configuration list for PBXProject "SSFortsOfMaharashtra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74965281D608AB100241705 /* Debug */,
+				E74965291D608AB100241705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E749652A1D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E749652B1D608AB100241705 /* Debug */,
+				E749652C1D608AB100241705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E749652D1D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E749652E1D608AB100241705 /* Debug */,
+				E749652F1D608AB100241705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E74965301D608AB100241705 /* Build configuration list for PBXNativeTarget "SSFortsOfMaharashtraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74965311D608AB100241705 /* Debug */,
+				E74965321D608AB100241705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74964F51D608AB000241705 /* Project object */;
+}
