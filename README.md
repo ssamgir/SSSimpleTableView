@@ -3,7 +3,7 @@
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
 ##UITableView
-#Forts List of Maharashtra 
+#Forts List of Maharashtra using UITableview
 ###:triangular_flag_on_post:Simple iOS Application which will show table view list:triangular_flag_on_post:
 
 # Contents
